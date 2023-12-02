@@ -7,7 +7,7 @@ const app = express();
 const port = 9595;
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname+'/index.html');
+    res.sendFile(__dirname+'/index_new.html');
 });
 
 app.get('/getData', (req, res) => {
